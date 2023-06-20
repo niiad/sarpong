@@ -1,9 +1,9 @@
-package com.eduful9788.kelvineduful;
-
 /**
  * Name: Eduful Kelvin
  * ID: 10889877
- * */
+ */
+package com.eduful9788.kelvineduful;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
