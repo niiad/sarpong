@@ -1,4 +1,4 @@
-package com.example.emmanueldjangmah;
+package com.example.quagrainepaasam;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
