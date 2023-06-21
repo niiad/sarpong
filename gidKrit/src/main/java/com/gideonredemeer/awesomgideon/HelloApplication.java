@@ -1,3 +1,8 @@
+/*
+    Gideon Agbosu
+    10892288
+ */
+
 package com.gideonredemeer.awesomgideon;
 
 import javafx.application.Application;
