@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79d42f37-a007-405d-a3ab-3d47c5fda6ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LumorKelvinSelorm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nawas Hutchful/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/src/main/java/com/example/nawashutchful/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/src/main/resources/com/example/nawashutchful/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aedward" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anumsolomon/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anumsolomon/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anumsolomon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anumsolomon/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bawsineku_david" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bawsinekudavid/bawsinekudavid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/src/main/java/com/essuman3020/caessuman/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/src/main/java/com/essuman3020/caessuman/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caessuman/src/main/resources/com/essuman3020/constanceakuaessuman/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dmain/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/src/main/java/com/example/eafacheampong/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/src/main/java/com/example/eafacheampong/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eafacheampong/src/main/resources/com/example/eafacheampong/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/com/example/emmanueldjangmah/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/com/example/emmanueldjangmah/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/resources/com/example/emmanueldjangmah/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanuelofori/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emmanuelyidana/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/src/main/java/com/gideonredemeer/awesomgideon/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/src/main/java/com/gideonredemeer/awesomgideon/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gidKrit/src/main/resources/com/gideonredemeer/awesomgideon/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jakesompaasamoah/Grade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/src/main/java/com/example/jerrypaddy/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/src/main/java/com/example/jerrypaddy/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/src/main/resources/com/example/jerrypaddy/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/target/classes/com/example/jerrypaddy/HelloApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/target/classes/com/example/jerrypaddy/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/target/classes/com/example/jerrypaddy/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerrypaddy/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/src/main/java/com/example/johndoe/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/johndoe/src/main/resources/com/example/johndoe/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/src/main/java/com/example/jojojacob/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/src/main/java/com/example/jojojacob/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jojojacob/src/main/resources/com/example/jojojacob/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/src/main/java/com/example/keduful/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/src/main/java/com/example/keduful/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keduful/src/main/resources/com/example/keduful/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/src/main/java/com/example/amaning/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/src/main/java/com/example/amaning/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwakuopokuamaning/src/main/resources/com/example/amaning/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/src/main/java/com/example/kwasi_adubediako/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/src/main/java/com/example/kwasi_adubediako/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kwasiAduBediako/src/main/resources/com/example/kwasi_adubediako/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/src/main/java/com/example/project/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/src/main/java/com/example/project/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lawsonpachomius/src/main/resources/com/example/project/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nanaobeng/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nanaobeng/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nanaobeng/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/src/main/java/com/example/ooreen/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/src/main/java/com/example/ooreen/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ooreen/src/main/resources/com/example/ooreen/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owusuasare" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/princeLokko/README.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priscillaEwusi/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/src/main/java/com/example/quagrainepaasam/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/src/main/java/com/example/quagrainepaasam/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/richardob/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/src/main/java/com/example/ronenham/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/src/main/java/com/example/ronenham/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ronenham/src/main/resources/com/example/ronenham/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safuraaziz/project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/src/main/java/com/example/samuelagbenyo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/src/main/java/com/example/samuelagbenyo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samuelagbenyo/src/main/resources/com/example/samuelagbenyo/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracyRuth/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twumdesmond/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlfredAppiagyei/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/AlfredAppiagyei/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlfredAppiagyei/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AlfredAppiagyei/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/project/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/caessuman/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lawsonpachomius/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eafacheampong/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/project/project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annette_Theodore/project/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Emmanuel Baah/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eugene Amedior/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/JaliluIK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jerry Paddy/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nana_Obeng/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eafacheampong/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nanaobeng/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/out/production/project/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nutifafa_Afi_Attor/project/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gidKrit/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nanaobeng/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/johndoe/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/src/main/java/com/example/pachomius_lawson_10904950/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/johndoe/src/main/java/com/example/johndoe/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/src/main/java/com/example/pachomius_lawson_10904950/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/src/main/java/com/example/anumsolomon/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Pachomius_lawson_10904950/src/main/resources/com/example/pachomius_lawson_10904950/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/src/main/resources/com/example/anumsolomon/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachomius Kweku Lawson/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/JeffSasu/initial commit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tsikata Benjamin/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/johndoe/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/johndoe/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/johndoe/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/johndoe/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keduful/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keduful/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keduful/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/keduful/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/caessuman/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/keduful/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eafacheampong/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/src/main/java/com/eduful9788/kelvineduful/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/src/main/java/com/example/anumsolomon/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/src/main/java/com/eduful9788/kelvineduful/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nawas Hutchful/nawashutchful/src/main/java/com/example/nawashutchful/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kelvin-eduful/src/main/resources/com/eduful9788/kelvineduful/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/quagrainepaasam/quagrainepaasam/src/main/resources/com/example/quagrainepaasam/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niiadotei/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/niiadotei/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niiadotei/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/niiadotei/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ronenhammond/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ronenhammond/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ronenhammond/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ronenhammond/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadrack_bentil/project/shadrack_bentil.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RYtFO0zhYTecaw1V5mIePz0ZdC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79d42f37-a007-405d-a3ab-3d47c5fda6ad" name="Changes" comment="" />
+      <created>1687438762661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687438762661</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
