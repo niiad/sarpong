@@ -1,4 +1,4 @@
-package com.example.alfred_appiagyei;
+package com.example.alfredappiagyei;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

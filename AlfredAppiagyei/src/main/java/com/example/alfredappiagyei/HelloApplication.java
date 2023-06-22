@@ -1,5 +1,4 @@
-package com.example.alfred_appiagyei;
-//** Alfred Appiagyei  10910517 **//
+package com.example.alfredappiagyei;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
