@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example</groupId>
-  <artifactId>project</artifactId>
+  <groupId>com.ashiangmor</groupId>
+  <artifactId>ashiangmor</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>lawsonpachomius</name>
+  <name>ashiangmor</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,7 +36,8 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
-    </dependency>              </dependencies>
+    </dependency>
+  </dependencies>
 
   <build>
         <plugins>
@@ -58,7 +59,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.example.project/com.example.project.HelloApplication</mainClass>
+              <mainClass>com.ashiangmor.ashiangmor/com.ashiangmor.app.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
@@ -71,5 +72,4 @@
       </plugin>
           </plugins>
   </build>
-
 </project>
