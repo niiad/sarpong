@@ -1,7 +1,7 @@
-package com.example.samuelagbenyo;
+// ID: 10900822
+// Name: Obed Elikem Anku
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.example.ankuobed;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

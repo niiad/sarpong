@@ -1,7 +1,8 @@
-package com.example.samuelagbenyo;
-
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.example.eduful;
+/**
+ * Full Name - Kelvin Eduful
+ * ID - 10889877
+ */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,8 +14,8 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource( "hello-view.fxml" ));
+        Scene scene = new Scene(fxmlLoader.load() , 320 , 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();

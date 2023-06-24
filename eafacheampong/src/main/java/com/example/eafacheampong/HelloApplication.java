@@ -1,7 +1,8 @@
-package com.example.samuelagbenyo;
-
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.example.eafacheampong;
+/**
+ * Name - Emmanuella Afia Frimpomaah Acheampong
+ * ID - 10915824
+ */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

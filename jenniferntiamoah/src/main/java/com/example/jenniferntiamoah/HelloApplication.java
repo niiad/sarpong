@@ -1,7 +1,7 @@
-package com.example.samuelagbenyo;
+package com.example.jenniferntiamoah;
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+//Jennifer Ntiamoah
+//10885590
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

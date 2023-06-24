@@ -1,7 +1,9 @@
-package com.example.samuelagbenyo;
+/*
+    Gideon Agbosu
+    10892288
+ */
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.gideonredemeer.awesomgideon;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -1,7 +1,10 @@
-package com.example.samuelagbenyo;
+/**
+ * @author Ashiangmor Caleb
+ * @student_id 10911770
+ *
+ */
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.ashiangmor.app;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

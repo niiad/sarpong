@@ -1,7 +1,9 @@
-package com.example.samuelagbenyo;
+package com.example.ronenhammond;
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+/*
+* Name: Ronen Hammond
+* ID: 10899320
+* */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

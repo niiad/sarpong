@@ -1,8 +1,9 @@
-package com.example.samuelagbenyo;
+package com.example.emmanueldjangmah;
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
-
+/*
+Emmanuel Kodjo Djangmah
+10868218
+*/
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

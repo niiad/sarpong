@@ -1,8 +1,8 @@
-package com.example.samuelagbenyo;
+package com.example.jerrypaddy;
 
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
-
+/* Jerry Paddy
+    10922405
+ */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -22,5 +22,6 @@ public class HelloApplication extends Application {
 
     public static void main(String[] args) {
         launch();
+
     }
 }

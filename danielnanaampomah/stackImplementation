@@ -1,0 +1,76 @@
+/*Daniel Nana Ampomah_10862595*/
+public class Ampomah2595<T> {
+    private int maxSize;
+    private T[] stackArray;
+    private int top;
+
+    /**
+     * @param maxSize
+     */
+    public Ampomah2595(int maxSize) {
+        this.maxSize = maxSize;
+        this.stackArray = (T[]) new Object[maxSize];
+        this.top = -1;
+    }
+
+    public void push(T item) {
+        if (isFull()) {
+            System.out.println("Stack is already full. Your item: " + item + "cannot be pushed.");
+        } else {
+            stackArray[++top] = item;
+            System.out.println("Pushed item: " + item);
+        }
+    }
+
+    public T pop() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty. Cannot pop item.");
+            return null;
+        } else {
+            T poppedItem = stackArray[top--];
+            System.out.println("Popped item: " + poppedItem);
+            return poppedItem;
+        }
+    }
+
+    public T peek() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty. No item to peek.");
+            return null;
+        } else {
+            return stackArray[top];
+        }
+    }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == maxSize - 1;
+    }
+
+    public int size() {
+        return top + 1;
+    }
+
+    public void display() {
+        System.out.print("Stack (top to bottom): ");
+        for (int i = top; i >= 0; i--) {
+            System.out.print(stackArray[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Ampomah2595<Integer> stack = new Ampomah2595<>(5);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.display(); // Output: Stack (top to bottom): 3 2 1
+        stack.pop(); // Output: Popped item: 3
+        System.out.println("Peek item: " + stack.peek()); // Output: Peek item: 2
+        System.out.println("Stack size: " + stack.size()); // Output: Stack size: 2
+        System.out.println("Is the stack empty? " + stack.isEmpty()); // Output: Is the stack empty? false
+    }
+}

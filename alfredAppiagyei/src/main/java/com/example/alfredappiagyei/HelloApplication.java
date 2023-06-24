@@ -1,7 +1,4 @@
-package com.example.samuelagbenyo;
-
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.example.alfredappiagyei;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,6 +7,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/*
+Alfred Appiagyei
+10910517
+ */
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {

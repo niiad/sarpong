@@ -1,7 +1,4 @@
-package com.example.samuelagbenyo;
-
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.example.stephaniekudadze;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -9,6 +6,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+
+
+/* Name: Stephanie Kudadze
+    ID: 10880767 */
+
 
 public class HelloApplication extends Application {
     @Override

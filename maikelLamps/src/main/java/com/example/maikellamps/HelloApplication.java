@@ -1,7 +1,4 @@
-package com.example.samuelagbenyo;
-
-// AGBENYO SAMUEL SELORM KWAME
-// 10913415
+package com.example.maikellamps;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -24,3 +21,6 @@ public class HelloApplication extends Application {
         launch();
     }
 }
+/* ID: 10864722
+   NAME: MICHAEL DUAH LAMPTEY
+ */
