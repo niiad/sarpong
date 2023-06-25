@@ -1,5 +1,8 @@
 package com.example.kelvinsowah;
 
+// NAME: KELVIN NII ODOI SOWAH
+// ID: 10868524
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
