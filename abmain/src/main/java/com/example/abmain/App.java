@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * @author John Abednego Jilima (10869333)
+ * @author Nii Adotei Brown (10723652)
  * This project is a guide and is heavily documented.
  * This is the main class and entry point of the application. Since this class is the main class, and
  * the project is a JavaFx project, the class is extending `Application` from the javafx API. The
