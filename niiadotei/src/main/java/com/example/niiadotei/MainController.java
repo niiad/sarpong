@@ -8,9 +8,9 @@ import javafx.scene.input.MouseEvent;
 /**
  * Every fxml file we create in the resources directory should have a controller class that
  * makes it possible to make the user interface elements in the fxml interaction.
- *
+ * <p>
  * This controller class is used to control the `main.fxml` user interface elements.
- * */
+ */
 public class MainController {
     public Button addButton;
     public Label totalDrugsLabel;

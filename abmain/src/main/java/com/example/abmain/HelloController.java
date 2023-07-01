@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
 /*
  *  John Abednego Jilima
  *  10869333
- * 
+ *
  */
 
 public class HelloController {

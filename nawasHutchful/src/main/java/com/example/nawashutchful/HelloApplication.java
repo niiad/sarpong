@@ -1,7 +1,7 @@
 /*
-* Nawas Hutchful
-* 10889353
-* */
+ * Nawas Hutchful
+ * 10889353
+ * */
 package com.example.nawashutchful;
 
 import javafx.application.Application;

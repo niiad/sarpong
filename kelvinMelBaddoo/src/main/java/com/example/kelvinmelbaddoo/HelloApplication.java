@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+
 /* ID: 10915625
 Name: Kelvin Melchizedek Baddoo */
 public class HelloApplication extends Application {

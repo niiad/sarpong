@@ -11,17 +11,17 @@ public class Main {
 
         String RemoveElement = myqueue.dequeue();
 
-       System.out.println("removing element " + RemoveElement);
+        System.out.println("removing element " + RemoveElement);
 
 
         String HeadElement = myqueue.peek();
 
-       System.out.println("Printing the head element: " + HeadElement );
+        System.out.println("Printing the head element: " + HeadElement);
 
 
         boolean IsEmpty = myqueue.IsEmpty();
         System.out.println("Checking if the Queue is empty: " + IsEmpty);
-        int Size  = myqueue.Size();
+        int Size = myqueue.Size();
         System.out.println("The Size of the Queue: " + Size);
 
         MyStack stack = new MyStack(5);

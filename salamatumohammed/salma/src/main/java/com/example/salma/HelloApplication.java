@@ -6,10 +6,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+
 /*
-* mohammed salamatu
-* 10914758
-* */
+ * mohammed salamatu
+ * 10914758
+ * */
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {

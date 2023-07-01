@@ -10,7 +10,7 @@ module com.otumichael.otumichael {
     requires org.kordamp.bootstrapfx.core;
 //    requires eu.hansoloOt.tilesfx;
     requires com.almasb.fxgl.all;
-    
+
     opens com.otumichael to javafx.fxml;
     exports com.otumichael;
 }

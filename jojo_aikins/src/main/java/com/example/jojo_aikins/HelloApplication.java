@@ -1,7 +1,7 @@
 /*
-* Jojo Aikins Oluwaferanmi Shemdzin
-* 10869760
-* */
+ * Jojo Aikins Oluwaferanmi Shemdzin
+ * 10869760
+ * */
 package com.example.jojo_aikins;
 
 import javafx.application.Application;

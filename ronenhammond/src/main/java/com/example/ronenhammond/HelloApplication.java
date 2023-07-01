@@ -1,9 +1,9 @@
 package com.example.ronenhammond;
 
 /*
-* Name: Ronen Hammond
-* ID: 10899320
-* */
+ * Name: Ronen Hammond
+ * ID: 10899320
+ * */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

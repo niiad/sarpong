@@ -1,7 +1,6 @@
 /**
  * @author Ashiangmor Caleb
  * @student_id 10911770
- *
  */
 
 package com.ashiangmor.app;

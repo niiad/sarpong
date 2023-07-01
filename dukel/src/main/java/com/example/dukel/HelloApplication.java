@@ -1,10 +1,8 @@
 package com.example.dukel;
 
 
-
 // FULL NAME: LARSEY DUKE NII NAI
 //ID NUMBER: 10904113
-
 
 
 import javafx.application.Application;

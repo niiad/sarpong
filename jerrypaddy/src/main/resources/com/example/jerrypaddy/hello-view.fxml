@@ -13,7 +13,7 @@
 
 
     <Label fx:id="welcomeText"
-            text="I am here"/>
+           text="I am here"/>
     <Label fx:id="clickMe"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
     <Button text="Click Me Also!" onAction="#onClickMeAlso"/>

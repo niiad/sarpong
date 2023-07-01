@@ -1,7 +1,7 @@
 /*
-* Name:Nicholas Amemazior
-* ID: 10923638
-* */
+ * Name:Nicholas Amemazior
+ * ID: 10923638
+ * */
 package com.example.nicholas_amemazior;
 
 import javafx.application.Application;
