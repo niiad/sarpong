@@ -4,136 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3948dbd5-d1d3-48ff-97ae-262e37c5d71a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/richardyemofio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/richardyemofio/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/richardyemofio/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/richardyemofio/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DSA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sarpong.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaroncliffordAnyidoho/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aaroncliffordAnyidoho/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaroncliffordAnyidoho/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/aaroncliffordAnyidoho/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaroncliffordAnyidoho/src/main/resources/com/example/aaron_clifford_anyidoho/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/aaroncliffordAnyidoho/src/main/resources/com/example/aaron_clifford_anyidoho/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/src/main/java/com/example/abmain/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmain/src/main/resources/com/example/abmain/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/abmain/src/main/resources/com/example/abmain/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alfredAppiagyei/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alfredAppiagyei/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alfredAppiagyei/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/alfredAppiagyei/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alfredAppiagyei/src/main/resources/com/example/alfredappiagyei/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/alfredAppiagyei/src/main/resources/com/example/alfredappiagyei/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anthonybrownantwi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anthonybrownantwi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anthonybrownantwi/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/anthonybrownantwi/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anthonybrownantwi/src/main/resources/com/example/anthonybrownantwi/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/anthonybrownantwi/src/main/resources/com/example/anthonybrownantwi/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anumsolomon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anumsolomon/src/main/java/com/example/anumsolomon/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/src/main/java/com/example/anumsolomon/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anumsolomon/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anumsolomon/src/main/resources/com/example/anumsolomon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/anumsolomon/src/main/resources/com/example/anumsolomon/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashiangmor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ashiangmor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashiangmor/src/main/java/com/ashiangmor/app/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashiangmor/src/main/java/com/ashiangmor/app/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashiangmor/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashiangmor/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashiangmor/src/main/resources/com/ashiangmor/app/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ashiangmor/src/main/resources/com/ashiangmor/app/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bridgetyeboah/src/main/java/com/example/bridgetyeboah/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bridgetyeboah/src/main/java/com/example/bridgetyeboah/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/danielnsayensu/src/main/java/com/example/danielnsayensu/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/danielnsayensu/src/main/java/com/example/danielnsayensu/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dukel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dukel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dukel/src/main/java/com/example/dukel/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dukel/src/main/java/com/example/dukel/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dukel/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/dukel/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dukel/src/main/resources/com/example/dukel/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/dukel/src/main/resources/com/example/dukel/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edemkwaku/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edemkwaku/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edemkwaku/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/edemkwaku/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edemkwaku/src/main/resources/com/example/edemkwaku/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/edemkwaku/src/main/resources/com/example/edemkwaku/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emmanueldjangmah/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/com/example/emmanueldjangmah/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/com/example/emmanueldjangmah/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emmanueldjangmah/src/main/resources/com/example/emmanueldjangmah/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/emmanueldjangmah/src/main/resources/com/example/emmanueldjangmah/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/george_ohene/george_ohene/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/george_ohene/george_ohene/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/george_ohene/george_ohene/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/george_ohene/george_ohene/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/george_ohene/george_ohene/src/main/resources/com/example/george_ohene/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/george_ohene/george_ohene/src/main/resources/com/example/george_ohene/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenniferntiamoah/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenniferntiamoah/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenniferntiamoah/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jenniferntiamoah/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenniferntiamoah/src/main/resources/com/example/jenniferntiamoah/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jenniferntiamoah/src/main/resources/com/example/jenniferntiamoah/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrypaddy/src/main/java/com/example/jerrypaddy/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jerrypaddy/src/main/java/com/example/jerrypaddy/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrypaddy/src/main/resources/com/example/jerrypaddy/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jerrypaddy/src/main/resources/com/example/jerrypaddy/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerrypaddy/target/classes/com/example/jerrypaddy/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jerrypaddy/target/classes/com/example/jerrypaddy/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jojo_aikins/src/main/java/com/example/jojo_aikins/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jojo_aikins/src/main/java/com/example/jojo_aikins/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jojojacob/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jojojacob/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jojojacob/src/main/java/com/example/jojojacob/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jojojacob/src/main/java/com/example/jojojacob/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jojojacob/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jojojacob/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jojojacob/src/main/resources/com/example/jojojacob/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jojojacob/src/main/resources/com/example/jojojacob/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keduful/src/main/java/com/example/keduful/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/keduful/src/main/java/com/example/keduful/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kelvinMelBaddoo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kelvinMelBaddoo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kelvinMelBaddoo/src/main/java/com/example/kelvinmelbaddoo/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kelvinMelBaddoo/src/main/java/com/example/kelvinmelbaddoo/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kelvinMelBaddoo/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/kelvinMelBaddoo/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kelvinMelBaddoo/src/main/resources/com/example/kelvinmelbaddoo/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/kelvinMelBaddoo/src/main/resources/com/example/kelvinmelbaddoo/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kofi_corletey/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/kofi_corletey/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lawsonpachomius/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lawsonpachomius/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lawsonpachomius/src/main/resources/com/example/project/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/lawsonpachomius/src/main/resources/com/example/project/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/louis_binah/Assignment/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/louis_binah/Assignment/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/louis_binah/Assignment/src/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/louis_binah/Assignment/src/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/louis_binah/Assignment/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/louis_binah/Assignment/src/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mustaphaadams/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mustaphaadams/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mustaphaadams/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/mustaphaadams/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mustaphaadams/src/main/resources/com/example/mustaphaadams/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/mustaphaadams/src/main/resources/com/example/mustaphaadams/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nawasHutchful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nawasHutchful/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nawasHutchful/src/main/java/com/example/nawashutchful/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nawasHutchful/src/main/java/com/example/nawashutchful/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nawasHutchful/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/nawasHutchful/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nawasHutchful/src/main/resources/com/example/nawashutchful/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/nawasHutchful/src/main/resources/com/example/nawashutchful/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nicholas_amemazior/src/main/java/com/example/nicholas_amemazior/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nicholas_amemazior/src/main/java/com/example/nicholas_amemazior/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niiadotei/src/main/java/com/example/niiadotei/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/niiadotei/src/main/java/com/example/niiadotei/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niiadotei/src/main/java/com/example/niiadotei/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/niiadotei/src/main/java/com/example/niiadotei/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niiadotei/src/main/resources/com/example/niiadotei/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/niiadotei/src/main/resources/com/example/niiadotei/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/northjosh/src/main/java/com/example/northjosh/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/northjosh/src/main/java/com/example/northjosh/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ooreen/src/main/java/com/example/ooreen/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ooreen/src/main/java/com/example/ooreen/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otumichael/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/otumichael/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otumichael/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/otumichael/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otumichael/src/main/resources/com/otumichael/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/otumichael/src/main/resources/com/otumichael/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ronenhammond/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ronenhammond/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ronenhammond/src/main/java/com/example/ronenhammond/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ronenhammond/src/main/java/com/example/ronenhammond/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ronenhammond/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/ronenhammond/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ronenhammond/src/main/resources/com/example/ronenhammond/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ronenhammond/src/main/resources/com/example/ronenhammond/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salamatumohammed/salma/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/salamatumohammed/salma/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salamatumohammed/salma/src/main/java/com/example/salma/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/salamatumohammed/salma/src/main/java/com/example/salma/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salamatumohammed/salma/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/salamatumohammed/salma/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salamatumohammed/salma/src/main/resources/com/example/salma/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/salamatumohammed/salma/src/main/resources/com/example/salma/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadrack_bentil/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/shadrack_bentil/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziamahBless/src/main/java/com/example/ziamahbless/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ziamahBless/src/main/java/com/example/ziamahbless/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziamahBless/src/main/java/com/example/ziamahbless/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ziamahBless/src/main/java/com/example/ziamahbless/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziamahBless/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/ziamahBless/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="3948dbd5-d1d3-48ff-97ae-262e37c5d71a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -145,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -158,5 +41,16 @@
       <updated>1688238272310</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
