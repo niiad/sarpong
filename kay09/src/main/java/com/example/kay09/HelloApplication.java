@@ -6,7 +6,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
+/*NAME; Nana Kwame Owusu Antwi*/
+/*id; 10908853 */
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
