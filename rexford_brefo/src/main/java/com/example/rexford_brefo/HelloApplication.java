@@ -7,6 +7,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/* 
+    NAME: Rexford Brefo
+    ID: 10917663
+*/
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
