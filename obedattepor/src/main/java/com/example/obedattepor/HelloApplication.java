@@ -7,6 +7,9 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/*NAME; OBED HOLALI ATTEPOR */
+/*ID; 10880042 */
+
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
