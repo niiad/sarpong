@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<?import java.lang.String?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="1077.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nyonyo589.finalproject.WelcomeController">
    <left>
       <AnchorPane prefHeight="407.0" prefWidth="214.0" style="-fx-background-color: #140640;" BorderPane.alignment="CENTER">
@@ -37,7 +36,7 @@
                      <graphic>
                         <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/elitlogo.jpg" />
+                              <Image url="@images/dashboard.svg" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -107,11 +106,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </VBox>
-            <Button fx:id="signoutButton" layoutX="12.0" layoutY="544.0" mnemonicParsing="false"
-                    onAction="#signoutButtonOnAction" prefHeight="25.0" prefWidth="190.0"
-                    style="-fx-background-color: #9a1d5f;" text="Sign-out" textFill="WHITE"
-                    AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0"
-                    styleClass="buttons">
+            <Button fx:id="signoutButton" layoutX="12.0" layoutY="544.0" mnemonicParsing="false" onAction="#signoutButtonOnAction" prefHeight="25.0" prefWidth="190.0" style="-fx-background-color: #9a1d5f;" styleClass="buttons" text="Sign-out" textFill="WHITE" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
