@@ -1,0 +1,15 @@
+.parent {
+    -fx-background-color: #e5e5e5;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+}
+
+.project-button {
+    -fx-background-color: #3a86ff;
+    -fx-border-color: #3a86ff;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 10px;
+}
