@@ -15,7 +15,7 @@ import java.io.IOException;
  * `Application` class is the starting point for all javafx application. The `start` method inside the
  * `Application` class is overriden by our main class. When the application starts, the `start` method is
  * executed right after before we even see the user interface.
- * */
+ */
 public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {

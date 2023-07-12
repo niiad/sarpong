@@ -9,7 +9,6 @@ import java.io.IOException;
 
 /**
  * @author John Abednego Jilima (10869333)
- * 
  **/
 
 public class HelloApplication extends Application {

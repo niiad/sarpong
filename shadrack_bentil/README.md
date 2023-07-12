@@ -40,7 +40,8 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Java](https://www.java.com/en/) and [IntelliJ IDEA](https://www.jetbrains.com/idea/) installed.
+Before starting :checkered_flag:, you need to have [Java](https://www.java.com/en/)
+and [IntelliJ IDEA](https://www.jetbrains.com/idea/) installed.
 
 Made with :heart: by <a href="https://github.com/qbentil" target="_blank">Shadrack Bentil</a>
 

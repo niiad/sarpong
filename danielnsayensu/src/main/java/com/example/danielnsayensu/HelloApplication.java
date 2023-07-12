@@ -1,7 +1,7 @@
 /*
-* Daniel Nyamekye Sarkodie Ayensu
-* 10896277
-* */
+ * Daniel Nyamekye Sarkodie Ayensu
+ * 10896277
+ * */
 
 package com.example.danielnsayensu;
 
