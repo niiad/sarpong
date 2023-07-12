@@ -27,7 +27,7 @@ public class App extends Application {
         // This scene is created using the user interface loaded by the FXMLLoader
         // and specifies the initial width and height.
         // For this, the width is 1280 and the height is 720
-        Scene scene = new Scene(fxmlLoader.load(), 1280, 720);
+        Scene scene = new Scene(fxmlLoader.load());
 
         // Every javafx applications runs from a stage class. From this stage class
         // the scene class displays the user interface.

@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
+<<<<<<< HEAD
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0"
             prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="com.example.niiadotei.MainController"/>
+=======
+<AnchorPane fx:controller="com.example.niiadotei.controller.MainController"
+            maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="parent" stylesheets="@css/styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane layoutX="48.0" layoutY="72.0" prefHeight="150.0" prefWidth="330.0" styleClass="card" stylesheets="@css/styles.css" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="85.0">
+            <children>
+                <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/boy.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="56.0" layoutY="14.0" prefHeight="25.0" prefWidth="254.0" text="Number of Boys">
+                    <font>
+                        <Font name="Trebuchet MS" size="14.0" />
+                    </font>
+                </Label>
+                <Button fx:id="boysAddButton" layoutX="190.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onBoysAddButton" prefHeight="35.0" prefWidth="120.0" styleClass="project-button" stylesheets="@css/styles.css" text="Add">
+                    <font>
+                        <Font name="Trebuchet MS" size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="boysCountLabel" layoutX="14.0" layoutY="101.0" prefHeight="35.0" prefWidth="64.0" text="12">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+            </children></Pane>
+        <Pane layoutX="390.0" layoutY="85.0" prefHeight="150.0" prefWidth="330.0" styleClass="card" stylesheets="@css/styles.css" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="85.0">
+            <children>
+                <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="11.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/girl.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="62.0" layoutY="13.0" prefHeight="25.0" prefWidth="254.0" text="Number of Girls">
+                    <font>
+                        <Font name="Trebuchet MS" size="14.0" />
+                    </font>
+                </Label>
+                <Button fx:id="girlsAddButton" layoutX="196.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onGirlsAddButton" prefHeight="35.0" prefWidth="120.0" styleClass="project-button" stylesheets="@css/styles.css" text="Add">
+                    <font>
+                        <Font name="Trebuchet MS" size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="girlsCountLabel" layoutX="14.0" layoutY="101.0" prefHeight="35.0" prefWidth="64.0" text="12">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+            </children></Pane>
+    </children>
+</AnchorPane>
+>>>>>>> df39b8a1424c93b829c2673390b738d35840d57b

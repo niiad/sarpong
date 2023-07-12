@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefWidth="865.0" style="-fx-background-color: #bcb9c7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nyonyo589.finalproject.AddGoodsController">
+   <children>
+      <TableView fx:id="addgoodsTableView" layoutX="6.0" layoutY="292.0" prefHeight="325.0" prefWidth="854.0" style="-fx-background-color: #bcb9b7;" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn fx:id="idTableColumn" maxWidth="50.0" minWidth="25.0" prefWidth="33.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="ID" />
+          <TableColumn fx:id="goodnameTableColumn" maxWidth="209.0" minWidth="45.0" prefWidth="165.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="Good Name" />
+            <TableColumn fx:id="categoryTableColumn" maxWidth="275.0" minWidth="97.0" prefWidth="168.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="Category" />
+            <TableColumn fx:id="sellingpriceTableColumn" maxWidth="220.0" minWidth="20.0" prefWidth="81.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="Selling Price" />
+            <TableColumn fx:id="buyingpriceTableColumn" maxWidth="258.0" minWidth="20.0" prefWidth="250.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="Buying Price" />
+            <TableColumn fx:id="quantityTableColumn" prefWidth="82.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="Quantity" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="242.0" style="-fx-background-color: #bcb2eb; -fx-border: solid; -fx-border-width: 1px; -fx-border-color: black;" text="Date " />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <VBox layoutX="14.0" layoutY="52.0" prefHeight="42.0" prefWidth="149.0">
+         <children>
+            <Label text="Category">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="11.0" />
+               </font></Label>
+            <ChoiceBox fx:id="categoryChoiceBox" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border: solid; -fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ChoiceBox>
+         </children>
+      </VBox>
+      <VBox layoutX="212.0" layoutY="52.0">
+         <children>
+            <Label text="Good Name">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="11.0" />
+               </font>
+            </Label>
+            <TextField fx:id="goodnameTextField" style="-fx-background-color: transparent; -fx-border: solid; -fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;" />
+         </children>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="111.0">
+         <children>
+            <Label text="Selling Price">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="11.0" />
+               </font>
+            </Label>
+            <TextField fx:id="sellingpriceTextField" style="-fx-background-color: transparent; -fx-border: solid; -fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;" />
+         </children>
+      </VBox>
+      <VBox layoutX="212.0" layoutY="111.0">
+         <children>
+            <Label text="Buying Price">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="11.0" />
+               </font>
+            </Label>
+            <TextField fx:id="buyingpriceTextField" style="-fx-background-color: transparent; -fx-border: solid; -fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;" />
+         </children>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="176.0">
+         <children>
+            <Label text="Quantity">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="11.0" />
+               </font>
+            </Label>
+            <TextField fx:id="quantityTextField" style="-fx-background-color: transparent; -fx-border: solid; -fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;" />
+         </children>
+      </VBox>
+      <Button fx:id="addButton" layoutX="212.0" layoutY="184.0" mnemonicParsing="false" onAction="#addButtonOnAction" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #140640;" text="ADD" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="14.0" layoutY="238.0" prefHeight="17.0" prefWidth="351.0" textFill="#e10b0b" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" />
+   </padding>
+</Pane>
