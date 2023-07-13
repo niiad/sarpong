@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager">
+=======
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="temurin-20" project-jdk-type="JavaSDK">
+>>>>>>> 54706de9b55e238ca44295889b4c2c12a7e351d4
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
