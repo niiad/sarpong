@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>jarawuravincensiawelagamu</artifactId>
+  <artifactId>JarawuraVincensiaWelagamu</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>jarawuravincensiawelagamu</name>
+  <name>JarawuraVincensiaWelagamu</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

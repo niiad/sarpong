@@ -1,6 +1,5 @@
 // Jarawura Vincensia Welagamu
 // 10888355
-
 package com.example.jarawuravincensiawelagamu;
 
 import javafx.application.Application;
