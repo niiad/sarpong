@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ApplicationController">
+	<top>
+		<Label text="Top" />
+	</top>
+	<left>
+		<Label text="Left" />
+	</left>
+	<center>
+		<Label text="Center" />
+	</center>
+	<bottom>
+		<Label text="Bottom" />
+	</bottom>
+	<right>
+		<Label text="Right" />
+	</right>
+</BorderPane>
