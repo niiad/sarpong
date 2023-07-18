@@ -1,0 +1,143 @@
+.button1
+{
+-fx-background-color :   #6f5cc2;
+}
+.button1:hover
+{
+-fx-background-color : #a89dda ;
+}
+.button1:pressed
+{
+-fx-background-color : #7156DD ;
+}
+
+.button1:focused
+{
+    -fx-background-color : #7d6ccb;
+    -fx-border-color : #cdd1d6;
+    -fx-border-width: 0 0 0 3px;
+}
+
+.button2
+{
+-fx-background-color :  #ffffff;
+-fx-border-radius: 3px;
+-fx-border-color:  #cdd1d6;
+}
+.button2:hover
+{
+-fx-background-color : #F2F2F2 ;
+}
+.button2:pressed
+{
+    -fx-background-color : #6f5cc2 ;
+}
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+    -fx-background-color:   #ffffff;
+}
+.table-view .column-header .label{
+
+   -fx-text-fill: #52438f;
+   /*-fx-font-weight: bold; */
+   -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell{
+   -fx-cell-size: 30;
+  -fx-alignment: center-left;
+  -fx-text-fill: #000000;
+  -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:  #e8e9f6;
+ }
+ .table-row-cell:selected .text {
+        -fx-fill : #52438f ;
+ 
+ }
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive(  #2D75E8,80%);
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #2D75E8,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}
+
+/* chart properties */
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-legend-visible: false;
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-pie {
+    -fx-border-color: derive(-fx-pie-color, 1%);
+    -fx-border-width: 0px;
+}
+
+/* Tab pane styles */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane {
+    -fx-tab-min-height: 30px;
+    /* -fx-tab-min-width: 90px; */
+}
+
+.tab {
+    -fx-background-insets: 0 0 0 0, 0, 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #ffffff;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #6f5cc2;
+    -fx-border-color : #6f5cc2;
+    -fx-border-width: 0 0 3px 0;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #a5a984;
+    /* -fx-font-size: 12px;
+    -fx-font-weight: bold; */
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #6f5cc2;
+
+}
