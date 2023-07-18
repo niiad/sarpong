@@ -37,9 +37,9 @@ import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 /**
- * Author: Group 5
- * Written on: within August/2022
- * Project: TeslaRentalInventory
+ * Individual Project
+ * Ebenezer Acquah
+ * ID: 10885076
  **/
 public class RentalsController implements Initializable {
     @FXML

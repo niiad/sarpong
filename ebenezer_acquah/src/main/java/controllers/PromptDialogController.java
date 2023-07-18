@@ -12,9 +12,9 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * Author: Group 5
- * Written on: within August/2022
- * Project: TeslaRentalInventory
+ * Individual Project
+ * Ebenezer Acquah
+ * ID: 10885076
  **/
 
 public class PromptDialogController {
