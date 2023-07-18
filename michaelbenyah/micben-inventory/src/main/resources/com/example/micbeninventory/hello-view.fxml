@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="501.0" prefWidth="744.0">
+         <children>
+            <AnchorPane prefHeight="439.0" prefWidth="316.0" />
+            <AnchorPane layoutX="256.0" prefHeight="439.0" prefWidth="316.0" AnchorPane.rightAnchor="7.0">
+               <children>
+                  <Label layoutX="140.0" layoutY="137.0" text="Welcome Customer" />
+                  <TextField layoutX="70.0" layoutY="169.0" prefHeight="30.0" prefWidth="220.0" promptText="        username / email" />
+                  <PasswordField layoutX="70.0" layoutY="220.0" prefHeight="30.0" prefWidth="220.0" promptText="           password" />
+                  <Button layoutX="70.0" layoutY="264.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="220.0" text="login" />
+                  <Button layoutX="239.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" text="close" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="2.0" />
+                  <ImageView fitHeight="103.0" fitWidth="178.0" layoutX="82.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

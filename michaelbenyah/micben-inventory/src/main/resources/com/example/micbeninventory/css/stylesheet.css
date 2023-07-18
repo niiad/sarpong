@@ -1,0 +1,49 @@
+.left-form{
+-fx-background-color:linear-gradient(to bottom right,#3045e0);
+-fx-border-color:#ffffff;
+-fx-border-width:.4px 0px .4px .4px;
+}
+
+.right-form{
+-fx-background-color:linear-gradient(to bottom right, #caf0f8);
+-fx-border-color:#ffffff;
+-fx-border-width:.4px .4px .4px 0px;
+}
+
+.close{
+-fx-background-color:transparent;
+-fx-cursor:arrow;
+}
+
+.close:hover{
+-fx-background-color:#f43f57;
+}
+
+.textfield{
+-fx-background-color:linear-gradient(to bottom right,#ffffff);
+-fx-background-radius:4px;
+-fx-border-color:#;
+-fx-border-radius:4px;
+-fx-border-width:4px;
+-fx-font-size:13px
+-fx-font-family:"Tahoma";
+}
+
+textfield:focused{
+-fx-background-color:#ffffff;
+-fx-border-color:linear-gradient(to bottom,#001219,#ffffff);
+-fx-border-width:8px;
+}
+
+.login-btn{
+-fx-background-color:linear-gradient(to bottom,#1c936d,#245b55);
+-fx-background-radius:4px;
+-fx-text-fill:#ffffff;
+-fx-font-size:14px;
+-fx-font-family:"Arial";
+-fx-cursor:arrow;
+
+.login-btn:hover{
+-fx-background-color:linear-gradient(to bottom,#1c936d,#245b55);
+}
+
