@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="828.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Contoller">
+   <children>
+      <Rectangle fx:id="header" arcHeight="5.0" arcWidth="5.0" fill="#89939c" height="48.0" layoutX="8.0" layoutY="9.0" stroke="#999191" strokeType="INSIDE" width="798.0" />
+      <FontAwesomeIconView fill="WHITE" layoutX="664.0" layoutY="38.0" size="11" />
+      <FontAwesomeIconView fill="WHITE" glyphName="HOME" layoutX="29.0" layoutY="39.0" />
+      <FontAwesomeIconView fill="WHITE" glyphName="PLUS" layoutX="147.0" layoutY="38.0" />
+      <FontAwesomeIconView fill="WHITE" glyphName="EYE" layoutX="272.0" layoutY="40.0" text="" />
+      <FontAwesomeIconView fill="#fffefe" glyphName="MONEY" layoutX="387.0" layoutY="39.0" />
+      <FontAwesomeIconView fill="WHITE" glyphName="BOOK" layoutX="509.0" layoutY="38.0" />
+      <Hyperlink fx:id="firstLink" layoutX="48.0" layoutY="23.0" text="VIEW VENDOR" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="secondLink" layoutX="166.0" layoutY="23.0" text="ADD GOODS" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="thirdLink" layoutX="292.0" layoutY="23.0" text="VIEW GOODS" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="fourthLink" layoutX="407.0" layoutY="23.0" text="VIEW BILLS" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="fifthLink" layoutX="536.0" layoutY="24.0" text="ISSUED GOODS" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="sixthLink" layoutX="687.0" layoutY="22.0" text="VIEW ISSUED GOODS" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</Pane>
