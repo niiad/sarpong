@@ -1,9 +1,16 @@
 package main;
 
 /**
+<<<<<<< HEAD
  * Individual Project
  * Ebenezer Acquah
  * ID: 10885076
+=======
+
+Individual Project
+Name: Ebenezer Acquah
+ID: 10885076
+>>>>>>> 73bf4433c5b2fbc36327f3db961c1fd7bbff2605
  **/
 
 import main.java.controllers.PromptDialogController;
