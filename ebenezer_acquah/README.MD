@@ -1,10 +1,8 @@
+# DCIT 308 INDIVIDUAL PROJECT
+
 ## Inventory Management System 
 
 ### ID: 10885076
-
-
-**Multi-user, RDBMS system for inventory management**
-<br>DCIT 308 semester Project
 
 <br>JavaFX, MySQL
 <br>
@@ -18,15 +16,12 @@
 
 ## Installation
 1. ``` Make sure **MySQL** is installed and running at port **3306** with username **'root'** and password **'root'**```
-2. Open **MySQL Workbench** and login to your root account
-3. From **File** menu click **Open SQL Script**
-4. Navigate to: <code>../InventorySystem/sql</code> and select <code>inventory.sql</code> file
-5. From **Query** menu select **Execute All** and wait till it finishes
-6. Navigate to <code>InventorySystem/jar/</code>
-7. Open CMD/Terminal and type: <code>java -jar InventorySystem.jar</code>
-9. You're all set!
- 
-**Watch this video for more:**
+2. ```Open **MySQL Workbench** and login to your root account```
+3. ```From **File** menu click **Open SQL Script**```
+4. ```Navigate to: <code>../InventorySystem/sql</code> and select <code>inventory.sql</code> file```
+5. ```From **Query** menu select **Execute All** and wait till it finishes```
+6. ```Navigate to <code>InventorySystem/jar/</code>```
+7. ```Open CMD/Terminal and type: <code>java -jar InventorySystem.jar</code>```
 
 
 ## Features
