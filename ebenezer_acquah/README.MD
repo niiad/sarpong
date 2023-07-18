@@ -52,11 +52,6 @@ Databse Schema:
 
 ![EER Diagram](images/diagrams/schema.png)
 
-Prototypes:
-
-![Dashboard](images/prototypes/Dashboard.png)
-
-![Dashboard](images/prototypes/Customers.png)
 
  
 
