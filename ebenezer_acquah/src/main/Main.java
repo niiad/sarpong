@@ -1,9 +1,10 @@
 package main;
 
 /**
- * Author: Group 5
- * Written on: over a period of time within August/2022
- * Project: TeslaRentalInventory
+
+Individual Project
+Name: Ebenezer Acquah
+ID: 10885076
  **/
 
 import main.java.controllers.PromptDialogController;
