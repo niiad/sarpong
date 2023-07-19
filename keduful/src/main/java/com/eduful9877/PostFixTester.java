@@ -2,6 +2,11 @@ package com.eduful9877;
 
 import java.util.Scanner;
 
+/**
+ * @author Kelvin Eduful
+ * id = 10889877
+ */
+
 public class PostFixTester {
     /**
      * Reads and evaluates multiple postfix expressions.

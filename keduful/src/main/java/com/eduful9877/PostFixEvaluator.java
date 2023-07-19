@@ -3,11 +3,16 @@ package com.eduful9877;
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * @author Kelvin Eduful
+ * id = 10889877
+ */
+
 public class PostFixEvaluator {
-    private final static char ADD = '+';
-    private final static char SUBTRACT = '-';
-    private final static char MULTIPLY = '*';
-    private final static char DIVIDE = '/';
+    private static final char ADD = '+';
+    private static final char SUBTRACT = '-';
+    private static final char MULTIPLY = '*';
+    private static final char DIVIDE = '/';
 
     private Stack<Integer> stack;
 
