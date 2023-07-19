@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.pharmaproject.AddGoodsController">
+    <TextField fx:id="nameField" promptText="Name"/>
+    <TextField fx:id="categoryField" promptText="Category"/>
+    <TextField fx:id="vendorField" promptText="Vendor"/>
+    <TextField fx:id="stockCountField" promptText="Stock Count"/>
+    <Button text="Add Goods" onAction="#handleAddGoods"/>
+</VBox>
