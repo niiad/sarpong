@@ -20,6 +20,45 @@ public class MazeSolver {
         this.maze = maze;
     }
 
+    private class Position {
+        private int x;
+        private int y;
+
+        public Position() {
+            this(0, 0);
+        }
+
+        public Position(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        public int getX() {
+            return x;
+        }
+
+        public int getY() {
+            return y;
+        }
+
+        public void setX(int x) {
+            this.x = x;
+        }
+
+        public void setY(int y) {
+            this.y = y;
+        }
+
+        public boolean validPosition(Maze maze) {
+            return (this.x >= 0 && this.x < maze.getRows()) && (this.y >= 0 && this.y < maze.getColumns());
+        }
+
+        @Override
+        public String toString() {
+            return "Position(" + x + ", " + y + ")";
+        }
+    }
+
     /**
      * Attempts to recursively traverse the maze. Inserts special
      * characters indicating locations that have been TRIED and that
@@ -38,13 +77,13 @@ public class MazeSolver {
         while (!(done) && !stack.isEmpty()) {
             pos = stack.pop();
             maze.tryPosition(pos.getX(),pos.getY()); // this cell has been tried
-            if (pos.getX() == maze.getRows() - 1 && pos.gety() == maze.getColumns() - 1)
+            if (pos.getX() == maze.getRows() - 1 && pos.getY() == maze.getColumns() - 1)
                 done = true; // maze is solved
             else {
-                pushNewPos(pos.getx() - 1,pos.gety(), stack);
-                pushNewPos(pos.getx() + 1,pos.gety(), stack);
-                pushNewPos(pos.getx(),pos.gety() - 1, stack);
-                pushNewPos(pos.getx(),pos.gety() + 1, stack);
+                pushNewPos(pos.getX() - 1,pos.getY(), stack);
+                pushNewPos(pos.getX() + 1,pos.getY(), stack);
+                pushNewPos(pos.getX(),pos.getY() - 1, stack);
+                pushNewPos(pos.getX(),pos.getY() + 1, stack);
             }
         }
         return done;
