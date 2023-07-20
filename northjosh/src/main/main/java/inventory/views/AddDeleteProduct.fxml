@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.controllers.AddDeleteProductController">
+   <children>
+      <HBox layoutX="272.0" layoutY="143.0" prefHeight="257.0" prefWidth="408.0">
+         <children>
+            <VBox prefHeight="326.0" prefWidth="121.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="29.0" prefWidth="94.0" text="UPC" />
+                  <Label prefHeight="29.0" prefWidth="94.0" text="Product Name" />
+                  <Label prefHeight="29.0" prefWidth="94.0" text="Quantity in Stock" />
+                  <Label prefHeight="29.0" prefWidth="94.0" text="Retail Price" />
+                  <Label prefHeight="29.0" prefWidth="94.0" text="Manufacturer" />
+                  <Label prefHeight="29.0" prefWidth="94.0" text="Category" />
+               </children>
+            </VBox>
+            <VBox prefHeight="326.0" prefWidth="321.0" spacing="10.0">
+               <children>
+                  <Label fx:id="upcLabel" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="29.0" text="default" textFill="#c94c26">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Label>
+                  <Label fx:id="productNameLabel" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="29.0" text="default" textAlignment="CENTER" textFill="#c94c26">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Label>
+                  <Label fx:id="quantityLabel" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="29.0" text="default" textAlignment="CENTER" textFill="#c94c26">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Label>
+                  <Label fx:id="priceLabel" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="29.0" text="default" textAlignment="CENTER" textFill="#c94c26">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Label>
+                  <Label fx:id="manufacturerLabel" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="29.0" text="default" textAlignment="CENTER" textFill="#c94c26">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Label>
+                  <Label fx:id="categoryLabel" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="29.0" text="default" textAlignment="CENTER" textFill="#c94c26">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Label>
+               </children>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="TOP_CENTER" prefHeight="494.0" prefWidth="213.0" style="-fx-background-color: #FBF5E6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="162.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/gui_images/inventoryManagement_logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="55.0" top="75.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+      <Button fx:id="noButton" layoutX="490.0" layoutY="422.0" mnemonicParsing="false" onAction="#noButtonPressed" prefWidth="55.0" text="No" />
+      <Button fx:id="yesButton" layoutX="585.0" layoutY="422.0" mnemonicParsing="false" onAction="#yesButtonPressed" prefHeight="25.0" prefWidth="55.0" text="Yes" />
+      <Label fx:id="messageLabel" layoutX="249.0" layoutY="33.0" prefHeight="72.0" prefWidth="454.0" text="Are you sure you want to add this new product to the database?" textFill="#c94c26" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <VBox alignment="BOTTOM_CENTER" layoutY="1.0" mouseTransparent="true" prefHeight="494.0" prefWidth="213.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="usernameDisplay" alignment="CENTER" prefHeight="31.0" prefWidth="213.0" text="User: .." />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

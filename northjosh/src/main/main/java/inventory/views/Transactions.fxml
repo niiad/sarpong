@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.controllers.TransactionsController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="900.0" prefWidth="246.0" style="-fx-background-color: #FBF5E6;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="162.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/gui_images/inventoryManagement_logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="55.0" top="75.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button fx:id="homeButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#changeToHomeScreen" prefHeight="50.0" prefWidth="258.0" style="-fx-background-color: #FBF5E6;" text="Home">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="productsButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#changeToProductScene" prefHeight="50.0" prefWidth="258.0" style="-fx-background-color: #FBF5E6;" text="Products">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/products.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="categoriesButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #FBF5E6;" text="Categories">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/categories.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="manufacturersButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: #FBF5E6;" text="Manufacturers">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/manufacturer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="transactionsButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="263.0" style="-fx-background-color: #F3D189;" text="Transactions">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/transactions.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="signOutButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#signOutButtonPressed" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #FBF5E6;" text="Sign Out">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/signOut.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="BOTTOM_CENTER" mouseTransparent="true" prefHeight="900.0" prefWidth="246.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="usernameDisplay" alignment="CENTER" prefHeight="31.0" prefWidth="246.0" style="-fx-background-color: transparent;" text="User: ..." />
+         </children>
+      </VBox>
+      <AnchorPane layoutX="246.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="refreshButton" layoutX="916.0" layoutY="159.0" mnemonicParsing="false" onAction="#updateTransactionsTable" text="Refresh Table" AnchorPane.rightAnchor="50.0" />
+            <Label fx:id="title" layoutX="49.0" layoutY="91.0" text="Invoice Transactions" textFill="#d14a0f" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="93.0">
+               <font>
+                  <Font name="Lucida Bright Regular" size="30.0" />
+               </font>
+            </Label>
+            <TableView fx:id="invoiceTable" layoutX="74.0" layoutY="142.0" AnchorPane.bottomAnchor="178.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="200.0">
+               <columns>
+                  <TableColumn fx:id="orderIdColumn" prefWidth="105.0" text="Order ID">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="orderID" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="productIdColumn" prefWidth="93.0" text="Product ID">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="productID" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="orderQuantityColumn" prefWidth="98.0" text="Order Quantity">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="orderQuantity" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="totalPaidColumn" prefWidth="83.0" text="Total Paid">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="totalPaid" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="dateTimeColumn" prefWidth="185.0" text="Transaction Time">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="dateTimeString" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="firstNameColumn" prefWidth="99.0" text="First Name">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="firstName" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="lastNameColumn" prefWidth="98.0" text="Last Name">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="lastName" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="emailColumn" prefWidth="192.0" text="Email">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="email" />
+                     </cellValueFactory>
+                  </TableColumn>
+               </columns>
+            </TableView>
+            <HBox alignment="CENTER" layoutX="49.0" layoutY="726.0" prefHeight="56.0" prefWidth="956.0" spacing="25.0" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+               <children>
+                  <RadioButton fx:id="findRadioBtn" mnemonicParsing="false" onAction="#radioButtonChanged" text="Find" textFill="#a87e37">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="toggleGroup" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="addRadioBtn" mnemonicParsing="false" onAction="#radioButtonChanged" text="Add" textFill="#a87e37" toggleGroup="$toggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="deleteRadioBtn" mnemonicParsing="false" onAction="#radioButtonChanged" text="Delete" textFill="#a87e37" toggleGroup="$toggleGroup">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="49.0" layoutY="782.0" AnchorPane.bottomAnchor="93.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+               <children>
+                  <TextField fx:id="orderIdTextField" prefHeight="25.0" prefWidth="107.0" promptText="Order ID" />
+                  <TextField fx:id="productIdTextField" prefHeight="25.0" prefWidth="101.0" promptText="Product ID" />
+                  <TextField fx:id="orderQuantityTextField" prefHeight="25.0" prefWidth="96.0" promptText="Order Quantity" />
+                  <TextField fx:id="totalPaidTextField" prefHeight="25.0" prefWidth="84.0" promptText="Total Paid" />
+                  <TextField fx:id="dateTimeTextField" prefHeight="25.0" prefWidth="180.0" promptText="Transaction Time" />
+                  <TextField fx:id="firstNameField" prefHeight="25.0" prefWidth="112.0" promptText="First Name" />
+                  <TextField fx:id="lastNameTextField" prefHeight="25.0" prefWidth="107.0" promptText="Last Name" />
+                  <TextField fx:id="emailTextField" prefHeight="25.0" prefWidth="169.0" promptText="Email" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="49.0" layoutY="818.0" prefHeight="43.0" prefWidth="956.0" spacing="10.0" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+               <children>
+                  <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submitButtonClicked" prefHeight="25.0" prefWidth="132.0" text="Select an option" />
+               </children>
+            </HBox>
+            <Label fx:id="buttonStatus" alignment="CENTER" layoutX="58.0" layoutY="855.0" prefHeight="31.0" prefWidth="947.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="49.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
