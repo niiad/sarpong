@@ -3,7 +3,7 @@ package com.eduful9877;
 /**
  * Represents a node in a linked list.
  * @author Kelvin Eduful
- * id = 10889877
+ * ID: 10889877
  */
 public class LinearNode<T> {
     private LinearNode<T> next;

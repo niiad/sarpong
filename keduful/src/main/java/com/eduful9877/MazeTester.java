@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  *  MazeTester determines if a maze can be traversed.
  * @author Kelvin Eduful
- * id = 10889877
+ * ID: 10889877
  */
 public class MazeTester {
     /**

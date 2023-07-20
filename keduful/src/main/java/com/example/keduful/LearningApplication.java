@@ -1,7 +1,7 @@
 package com.example.keduful;
 /**
- * Name - Kelvin Eduful
- * ID - 10889877
+ * @author Kelvin Eduful
+ * ID: 10889877
  */
 
 import javafx.application.Application;

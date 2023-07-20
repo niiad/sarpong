@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * Codes demonstrates the use of queues to encrypt and decrypt messages.
  * @author Kelvin Eduful
- * id = 10889877
+ * ID: 10889877
  */
 public class Codes {
 

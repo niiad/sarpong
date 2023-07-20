@@ -10,7 +10,7 @@ import java.util.Scanner;
  *  constants are used to represent locations in the maze that have been TRIED
  *  and that are part of the solution PATH.
  * @author Kelvin Eduful
- * id = 10889877
+ * ID: 10889877
  */
 public class Maze {
     private static final int TRIED = 2;

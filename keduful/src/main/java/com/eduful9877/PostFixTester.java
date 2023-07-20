@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author Kelvin Eduful
- * id = 10889877
+ * ID: 10889877
  */
 
 public class PostFixTester {
