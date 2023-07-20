@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -12,7 +12,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="09c83a43-a424-4729-a443-5875b7b3e0e4">
+    <connection id="572b455c-9c1f-46a6-8f39-7974132b9392">
       <console name="Connection" type="STANDARD" schema="ims_database" session="Main" />
     </connection>
   </component>
@@ -22,13 +22,24 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="09c83a43-a424-4729-a443-5875b7b3e0e4" active="true" signed="true">
+      <connection id="572b455c-9c1f-46a6-8f39-7974132b9392" active="true" signed="true">
         <database>
           <name value="Connection" />
           <description value="" />

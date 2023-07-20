@@ -1,0 +1,21 @@
+.parent{
+
+ -fx-background-color: #fff;
+}
+
+.sidebar{
+    -fx-background-color: #fff;
+}
+
+.card{
+-fx-border-color: #fff;
+  -fx-background-color: #fff;
+  -fx-background-radius: 15px 15px 15px 15px;
+ -fx-border-radius: 15px 15px 15px 15px;
+}
+.card2{
+-fx-border-color: #fff;
+  -fx-background-color: #f2f2f2;
+  -fx-background-radius: 15px 15px 15px 15px;
+ -fx-border-radius: 15px 15px 15px 15px;
+}

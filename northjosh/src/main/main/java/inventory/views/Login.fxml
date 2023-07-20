@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" style="-fx-border-color: A89873; -fx-border-width: 0px 20px 0px 20px; -fx-background-color: FBF5E6" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.controllers.LoginController">
+   <children>
+      <TextField fx:id="textField_username" layoutX="88.0" layoutY="344.0" onAction="#onEnter" promptText="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="88.0" layoutY="402.0" onAction="#onEnter" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="button_login" layoutX="168.0" layoutY="453.0" mnemonicParsing="false" onAction="#Login" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Label fx:id="status" alignment="CENTER" layoutX="90.0" layoutY="308.0" prefHeight="27.0" prefWidth="224.0" text="Please enter credentials" textFill="#9a791f">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image1" fitHeight="191.0" fitWidth="175.0" layoutX="113.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/gui_images/inventoryManagement_logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="title" alignment="CENTER" layoutX="76.0" layoutY="47.0" text="Inventory System" textFill="#d30d0d">
+         <font>
+            <Font name="Lucida Bright Regular" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

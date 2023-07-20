@@ -17,7 +17,7 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.koficorletey.controllers.AddProductDialogController">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #52438f;">
+      <HBox alignment="CENTER_LEFT" prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #14b5f0;">
          <children>
             <Label text="Add Product" textFill="WHITE">
                <font>
@@ -159,7 +159,7 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <ComboBox fx:id="catCombo" prefHeight="24.0" prefWidth="267.0" style="-fx-background-color: #fff; -fx-border-color: #52438f; -fx-border-radius: 3px; -fx-background-radius: 3px;">
+                  <ComboBox fx:id="catCombo" prefHeight="24.0" prefWidth="267.0" style="-fx-background-color: #fff; -fx-border-color: #14b5f0; -fx-border-radius: 3px; -fx-background-radius: 3px;">
                      <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>
@@ -176,7 +176,7 @@
       </GridPane>
       <ButtonBar prefHeight="84.0" prefWidth="600.0">
          <buttons>
-            <Button fx:id="btndialogCancel" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="48.0" prefWidth="120.0" stylesheets="@../css/fxstyles.css" text="CANCEL" textFill="#52438f">
+            <Button fx:id="btndialogCancel" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="48.0" prefWidth="120.0" stylesheets="@../css/fxstyles.css" text="CANCEL" textFill="#07e9ff">
                <font>
                   <Font size="18.0" />
                </font>

@@ -1,0 +1,20 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #F0F0F0;
+}
+
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 8,20;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+  .button:hover {
+      -fx-background-color: #FF9036;
+      -fx-transition: background-color 0.3s ease-in-out;
+  }
+
+.table-view {
+    -fx-background-color: #FFFFFF;
+}
