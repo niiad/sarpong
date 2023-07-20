@@ -1,19 +1,19 @@
 .button1
 {
--fx-background-color :   #6f5cc2;
+-fx-background-color : rgba(92, 167, 194, 0.91);
 }
 .button1:hover
 {
--fx-background-color : #a89dda ;
+-fx-background-color : #9DDAA1FF ;
 }
 .button1:pressed
 {
--fx-background-color : #7156DD ;
+-fx-background-color : #07e9ff;
 }
 
 .button1:focused
 {
-    -fx-background-color : #7d6ccb;
+    -fx-background-color : #66dd56;
     -fx-border-color : #cdd1d6;
     -fx-border-width: 0 0 0 3px;
 }
@@ -30,7 +30,7 @@
 }
 .button2:pressed
 {
-    -fx-background-color : #6f5cc2 ;
+    -fx-background-color : #5CC2AEFF ;
 }
 
 
@@ -41,13 +41,12 @@
 }
 .table-view .column-header .label{
 
-   -fx-text-fill: #52438f;
+   -fx-text-fill: #14b5f0;
    /*-fx-font-weight: bold; */
    -fx-alignment: CENTER_LEFT;
 }
 .table-view .cell{
    -fx-cell-size: 30;
-  -fx-alignment: center-left;
   -fx-text-fill: #000000;
   -fx-alignment: CENTER_LEFT;
 }
@@ -56,7 +55,7 @@
     -fx-background-color:  #e8e9f6;
  }
  .table-row-cell:selected .text {
-        -fx-fill : #52438f ;
+        -fx-fill : #38632b;
  
  }
 /* scroll bar starts here */
@@ -124,8 +123,8 @@
 
 .tab-pane .tab:selected {
     -fx-background-color: #ffffff;
-    -fx-text-fill: #6f5cc2;
-    -fx-border-color : #6f5cc2;
+    -fx-text-fill: #5CC2AEFF;
+    -fx-border-color : #5CC2AEFF;
     -fx-border-width: 0 0 3px 0;
 }
 
@@ -138,6 +137,6 @@
 
 .tab:selected .tab-label {
     -fx-alignment: CENTER;
-    -fx-text-fill: #6f5cc2;
+    -fx-text-fill: #5CC2AEFF;
 
 }

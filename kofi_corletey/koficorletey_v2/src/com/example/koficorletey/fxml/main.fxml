@@ -13,7 +13,7 @@
    <children>
       <BorderPane layoutX="128.0" layoutY="48.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="948.0" style="-fx-background-color: #34ba7d;" BorderPane.alignment="CENTER">
+            <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="948.0" style="-fx-background-color: #3494ba;" BorderPane.alignment="CENTER">
                <children>
                   <Label text="StockPile" textFill="WHITE">
                      <font>
@@ -27,7 +27,7 @@
             </HBox>
          </top>
          <left>
-            <VBox prefHeight="520.0" prefWidth="202.0" style="-fx-background-color: #34ba7d;" BorderPane.alignment="CENTER">
+            <VBox prefHeight="520.0" prefWidth="202.0" style="-fx-background-color: rgba(52,148,186,0.89);" BorderPane.alignment="CENTER">
                <children>
                   <Button fx:id="btnProducts" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#pgButtonClicked" prefHeight="53.0" prefWidth="202.0" styleClass="button1" stylesheets="@../css/fxstyles.css" text="Products" textFill="WHITE">
                      <font>
