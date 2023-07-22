@@ -1,5 +1,7 @@
 package com.example.maikellamps;
-
+/* ID: 10864722
+   NAME: MICHAEL DUAH LAMPTEY
+ */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -21,6 +23,3 @@ public class HelloApplication extends Application {
         launch();
     }
 }
-/* ID: 10864722
-   NAME: MICHAEL DUAH LAMPTEY
- */
