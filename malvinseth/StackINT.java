@@ -1,4 +1,4 @@
-package Dickson019;
+package Malvin;
 
 public interface StackINT<S> {
     public void push (S element);
