@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.group20.inventory.inventory.controllers.ProductFormController">
+    <children>
+        <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0"
+              AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="344.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+                            <font>
+                                <Font size="14.0"/>
+                            </font>
+                        </Text>
+                        <TextField fx:id="nameInput" prefHeight="26.0" prefWidth="243.0">
+                            <opaqueInsets>
+                                <Insets/>
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets left="25.0"/>
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="344.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+                            <font>
+                                <Font size="14.0"/>
+                            </font>
+                        </Text>
+                        <TextField fx:id="priceInput" prefHeight="26.0" prefWidth="244.0">
+                            <opaqueInsets>
+                                <Insets/>
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets left="30.0"/>
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="344.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+                            <font>
+                                <Font size="14.0"/>
+                            </font>
+                        </Text>
+                        <TextField fx:id="quantityInput" prefHeight="26.0" prefWidth="244.0">
+                            <opaqueInsets>
+                                <Insets/>
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets left="10.0"/>
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="344.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Category">
+                            <font>
+                                <Font size="14.0"/>
+                            </font>
+                        </Text>
+                        <ComboBox fx:id="categorySelect" prefHeight="26.0" prefWidth="241.0">
+                            <HBox.margin>
+                                <Insets left="8.0"/>
+                            </HBox.margin>
+                        </ComboBox>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button fx:id="saveButton" alignment="CENTER_RIGHT" contentDisplay="RIGHT"
+                                mnemonicParsing="false" onAction="#saveProduct" text="Save"/>
+                    </children>
+                    <opaqueInsets>
+                        <Insets/>
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets top="30.0"/>
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
