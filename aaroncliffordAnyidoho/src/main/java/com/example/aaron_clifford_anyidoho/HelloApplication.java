@@ -1,5 +1,5 @@
 package com.example.aaron_clifford_anyidoho;
-/*Aaron Clifford Anydoho
+/*Aaron Clifford Anyidoho
 ID: 10902425
  */
 
