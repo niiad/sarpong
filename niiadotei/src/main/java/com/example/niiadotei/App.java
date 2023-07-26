@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * @author Nii Adotei Brown (10723652)
+ * @author John Abednego Jilima (10869333)
  * This project is a guide and is heavily documented.
  * This is the main class and entry point of the application. Since this class is the main class, and
  * the project is a JavaFx project, the class is extending `Application` from the javafx API. The
@@ -27,7 +27,7 @@ public class App extends Application {
         // This scene is created using the user interface loaded by the FXMLLoader
         // and specifies the initial width and height.
         // For this, the width is 1280 and the height is 720
-        Scene scene = new Scene(fxmlLoader.load(), 1280, 720);
+        Scene scene = new Scene(fxmlLoader.load());
 
         // Every javafx applications runs from a stage class. From this stage class
         // the scene class displays the user interface.

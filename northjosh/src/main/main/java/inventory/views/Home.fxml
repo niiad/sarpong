@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.controllers.HomeController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="900.0" prefWidth="246.0" style="-fx-background-color: #FBF5E6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="162.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/gui_images/inventoryManagement_logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="55.0" top="75.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button fx:id="homeButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="258.0" style="-fx-background-color: #F3D189;" text="Home">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="productsButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#changeToProductScene" prefHeight="50.0" prefWidth="258.0" style="-fx-background-color: #FBF5E6;" text="Products">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/products.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="categoriesButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #FBF5E6;" text="Categories">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/categories.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="manufacturersButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: #FBF5E6;" text="Manufacturers">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/manufacturer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="transactionsButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#changeToTransactionsScene" prefHeight="50.0" prefWidth="263.0" style="-fx-background-color: #FBF5E6;" text="Transactions">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/transactions.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+            <Button fx:id="signOutButton" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#signOutButtonPressed" prefHeight="50.0" prefWidth="306.0" style="-fx-background-color: #FBF5E6;" text="Sign Out">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/gui_images/signOut.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="55.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="-2.0" mouseTransparent="true" prefHeight="900.0" prefWidth="246.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-2.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Region VBox.vgrow="ALWAYS" />
+         </children>
+         <children>
+            <Label fx:id="usernameDisplay" alignment="CENTER" prefHeight="31.0" prefWidth="246.0" style="-fx-background-color: transparent;" text="User: ..." />
+         </children>
+      </VBox>
+      <AnchorPane layoutX="256.0" prefHeight="900.0" prefWidth="1054.0" AnchorPane.leftAnchor="246.0">
+         <children>
+            <Label fx:id="title" alignment="TOP_LEFT" layoutY="96.0" prefHeight="43.0" prefWidth="954.0" text="Inventory Home" textFill="#d14a0f" wrapText="true" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="93.0">
+               <font>
+                  <Font name="Lucida Bright Regular" size="30.0" />
+               </font>
+            </Label>
+            <StackPane layoutX="50.0" layoutY="199.0" style="-fx-background-color: #E8D5C0;" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <VBox alignment="CENTER">
+                           <children>
+                              <Label text="Today's Revenue:" textFill="#542916">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <Label text="\$">
+                                       <font>
+                                          <Font size="26.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="todayRevenue" text="0">
+                                       <font>
+                                          <Font size="26.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER">
+                           <children>
+                              <Label text="YTD Revenue:" textFill="#542916">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <Label text="\$">
+                                       <font>
+                                          <Font size="26.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="ytdRevenue" text="0">
+                                       <font>
+                                          <Font size="26.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="70.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER">
+                           <children>
+                              <Label text="YTD Transactions:" textFill="#542916">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="ytdTransactions" text="0">
+                                 <font>
+                                    <Font size="26.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="70.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </StackPane>
+            <TableView fx:id="lowStockTable" layoutX="100.0" layoutY="388.0">
+              <columns>
+                <TableColumn fx:id="lowStockNameCol" prefWidth="229.0" text="Product Name">
+                   <cellValueFactory>
+                      <PropertyValueFactory property="productName" />
+                   </cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="lowStockQuantityCol" prefWidth="150.0" text="Quantity in Stock">
+                   <cellValueFactory>
+                      <PropertyValueFactory property="quantity" />
+                   </cellValueFactory>
+                </TableColumn>
+              </columns>
+            </TableView>
+            <TableView fx:id="popularProductsTable" layoutX="573.0" layoutY="388.0">
+               <columns>
+                  <TableColumn fx:id="popularProdNameCol" prefWidth="229.0" text="Product Name">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="name" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="popularProdSalesCol" prefWidth="150.0" text="Total Sales">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="totalSales" />
+                     </cellValueFactory>
+                  </TableColumn>
+               </columns>
+            </TableView>
+            <StackPane layoutX="145.0" layoutY="332.0" style="-fx-background-color: #E8D5C0;">
+               <children>
+                  <Label alignment="CENTER" text="Products With Low Stock:" textAlignment="CENTER" textFill="#6e441f">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" left="50.0" right="50.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </StackPane>
+            <StackPane layoutX="648.0" layoutY="332.0" style="-fx-background-color: #E8D5C0;">
+               <children>
+                  <Label alignment="CENTER" text="Popular Products:" textAlignment="CENTER" textFill="#6e441f">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" left="50.0" right="50.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

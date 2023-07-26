@@ -1,0 +1,6 @@
+/target
+/.idea
+InventoryManagementSys.iml
+/shelf/
+/workspace.xml
+/src/main/java/inventory/services/DBConnection.java

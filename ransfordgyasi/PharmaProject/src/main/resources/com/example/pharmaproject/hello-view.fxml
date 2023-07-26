@@ -1,0 +1,24 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.pharmaproject.MainController">
+    <top>
+        <ToolBar>
+            <Button text="Add Goods" onAction="#handleAddGoods"/>
+            <Button text="View Vendors" onAction="#handleViewVendors"/>
+            <Button text="View Goods" onAction="#handleViewGoods"/>
+            <Button text="View Bills" onAction="#handleViewBills"/>
+            <Button text="Issue Goods" onAction="#handleIssueGoods"/>
+            <Button text="View Issued Goods" onAction="#handleViewIssuedGoods"/>
+        </ToolBar>
+    </top>
+    <center>
+
+
+                <Label text="Welcome to RansPharma" style="-fx-font-size: 24px;-fx-font-family: 'Arial'; -fx-text-transform: uppercase;" />
+
+
+    </center>
+</BorderPane>

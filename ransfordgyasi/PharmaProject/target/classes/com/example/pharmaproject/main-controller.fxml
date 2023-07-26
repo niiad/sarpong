@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.pharmaproject.MainController">
+    <ToolBar>
+        <Button text="Add Goods" onAction="#handleAddGoods"/>
+        <Button text="View Vendors" onAction="#handleViewVendors"/>
+        <Button text="View Goods" onAction="#handleViewGoods"/>
+        <Button text="View Bills" onAction="#handleViewBills"/>
+        <Button text="Issue Goods" onAction="#handleIssueGoods"/>
+        <Button text="View Issued Goods" onAction="#handleViewIssuedGoods"/>
+    </ToolBar>
+</VBox>

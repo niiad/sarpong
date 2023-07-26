@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane prefHeight="200" prefWidth="150" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nyonyo589.finalproject.vendorsViewController">
+   <children>
+      <Label layoutX="38.0" layoutY="83.0" text="Vendorsvview" />
+   </children>
+</Pane>

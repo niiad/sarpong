@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.pharmaproject.ViewVendorsController">
+    <TableView fx:id="vendorsTable">
+        <columns>
+            <TableColumn text="Name" fx:id="nameColumn"/>
+            <TableColumn text="Category" fx:id="categoryColumn"/>
+            <TableColumn text="Vendor" fx:id="vendorColumn"/>
+            <TableColumn text="Stock Count" fx:id="stockCountColumn"/>
+        </columns>
+    </TableView>
+</VBox>

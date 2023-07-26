@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.control.GlyphCheckBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="584.0" prefWidth="196.0" style="-fx-background-color: #3f2b63;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="195.0" text="Button" />
+         </children>
+      </VBox>
+      <GlyphCheckBox />
+   </children>
+</AnchorPane>
