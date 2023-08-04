@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="boysCountlabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="parent" stylesheets="@css/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="32.0" layoutY="23.0" prefHeight="150.0" prefWidth="300.0" styleClass="card" stylesheets="@css/styles.css" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="85.0">
+         <children>
+            <Label layoutX="23.0" layoutY="31.0" prefHeight="18.0" prefWidth="243.0" text="Number of Boys" textAlignment="CENTER">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="92.0" prefHeight="17.0" prefWidth="58.0" text="12" />
+            <Button layoutX="186.0" layoutY="81.0" mnemonicParsing="false" onAction="#onBoysAddButton" prefHeight="40.0" prefWidth="100.0" styleClass="project-button" stylesheets="@css/styles.css" text="Add" />
+         </children></Pane>
+      <Pane layoutX="412.0" layoutY="85.0" prefHeight="150.0" prefWidth="300.0" styleClass="card" stylesheets="@css/styles.css" AnchorPane.rightAnchor="88.0" AnchorPane.topAnchor="85.0">
+         <children>
+            <Label layoutX="24.0" layoutY="34.0" prefHeight="17.0" prefWidth="243.0" text="Number of girls" textAlignment="CENTER">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="girlsCountlabel" layoutX="20.0" layoutY="97.0" prefHeight="17.0" prefWidth="58.0" text="12" />
+            <Button layoutX="186.0" layoutY="86.0" mnemonicParsing="false" onAction="#onGirlsAddButton" prefHeight="40.0" prefWidth="100.0" styleClass="project-button" stylesheets="@css/styles.css" text="Add" />
+         </children></Pane>
+   </children>
+</AnchorPane>
