@@ -1,5 +1,12 @@
 package com.example.alexis_addo;
 
+/**
+ * Represents a linked implementation of a stack.
+ *
+ * @author Alexis Adjeley Addo
+ * ID: 10896904
+ */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -21,3 +28,5 @@ public class HelloApplication extends Application {
         launch();
     }
 }
+
+
