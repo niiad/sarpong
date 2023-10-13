@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="435.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddProductController">
+   <children>
+      <BorderPane layoutX="165.0" layoutY="122.0" prefHeight="560.0" prefWidth="814.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Pane prefHeight="53.0" prefWidth="442.0" style="-fx-background-color: #266E73;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="36.0" layoutY="14.0" prefHeight="19.0" prefWidth="115.0" text="Add Product" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Pane prefHeight="358.0" prefWidth="391.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="categoryTextField" layoutX="59.0" layoutY="124.0" prefHeight="25.0" prefWidth="251.0" promptText="Category" />
+                  <Button fx:id="addBtn" layoutX="240.0" layoutY="310.0" mnemonicParsing="false" onAction="#addBtn_Clicked" prefHeight="30.0" prefWidth="213.0" style="-fx-background-color: #266E73;" text="Add" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="costTextField" layoutX="360.0" layoutY="124.0" prefHeight="25.0" prefWidth="251.0" promptText="Cost Price" />
+                  <TextField fx:id="sellingTextField" layoutX="59.0" layoutY="191.0" prefHeight="25.0" prefWidth="251.0" promptText="Selling Price" />
+                  <TextField fx:id="nameTextField" layoutX="59.0" layoutY="64.0" prefHeight="25.0" prefWidth="251.0" promptText="Name" />
+                  <TextField fx:id="quantityTextField" layoutX="360.0" layoutY="64.0" prefHeight="25.0" prefWidth="251.0" promptText="Quantity" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

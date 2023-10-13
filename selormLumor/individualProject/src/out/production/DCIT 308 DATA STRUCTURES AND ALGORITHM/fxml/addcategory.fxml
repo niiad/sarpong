@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="417.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddCategoryController">
+   <children>
+      <BorderPane layoutX="165.0" layoutY="122.0" prefHeight="560.0" prefWidth="814.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Pane prefHeight="53.0" prefWidth="442.0" style="-fx-background-color: #266E73;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="36.0" layoutY="14.0" prefHeight="19.0" prefWidth="115.0" text="Add Category" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Pane prefHeight="358.0" prefWidth="391.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="nameTextField" layoutX="70.0" layoutY="66.0" prefHeight="25.0" prefWidth="251.0" promptText="Name" />
+                  <Button layoutX="89.0" layoutY="239.0" mnemonicParsing="false" onAction="#addBtn_Clicked" prefHeight="30.0" prefWidth="213.0" style="-fx-background-color: #266E73;" text="Add" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <TextArea fx:id="descriptionTextArea" layoutX="71.0" layoutY="114.0" prefHeight="93.0" prefWidth="250.0" promptText="Description" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

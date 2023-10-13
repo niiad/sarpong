@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.AppBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="635.0" prefWidth="912.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Sample">
+   <children>
+      <AppBar prefHeight="62.0" prefWidth="912.0" titleText="AppBar" />
+   </children>
+</AnchorPane>
